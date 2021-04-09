@@ -2410,3 +2410,13 @@ ul.contant_icon li img {
 	top: inherit;
 	bottom: 10px;
 }
+
+
+/** thanos footer **/
+
+.w3-center{text-align:center!important}
+.w3-padding-64{padding-top:64px!important;padding-bottom:64px!important}
+.w3-section{margin-top:16px!important;margin-bottom:16px!important}
+.w3-xxlarge{font-size:36px!important}
+.w3-text-cbcyan2{color:#007437!important;text-decoration: none;}
+.w3-text-cbcyan2:hover{color:white!important; text-decoration: none;}
