@@ -16,7 +16,6 @@
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <!-- style css -->
       <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="css/proto.css">
       <!-- Responsive-->
       <link rel="stylesheet" href="css/responsive.css">
       <!-- fevicon -->
@@ -55,35 +54,7 @@
 
 
       <!-- Navbar (sit on top) -->
-<div class="w3-top">
-   <div class="atr0x-center">
-     <div class="w3-bar" id="myNavbar">
-       <a class="w3-bar-item w3-button w3-hover-white w3-hide-medium w3-hide-large w3-left" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-       <i class="fa fa-bars"> Menu</i></a>
-         <a href="#home" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-home"></i> Αρχική</a>
-         <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> Η Εταιρεία</a>
-         <a href="#ourProducts" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> Προϊόντα</a>
-         <a href="#events" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-users"></i> Εκδηλώσεις</a>
-         <!-- <a href="#shops" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-map-marker"></i> Καταστήματα</a> -->
-         <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> Επικοινωνία</a>
-         <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red"><i class="fa fa-search"></i></a> -->
-         <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right"><img src="/img/greece.png" style="max-width: 18px;"></a>
-         <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right"><img src="/img/english.png" style="max-width:18px;"></a> -->
-     </div>
-   </div>
- 
-   <!-- Navbar on small screens -->
-   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">Η Εταιρεία</a>
-     <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">Προϊόντα</a>
-     <a href="#events" class="w3-bar-item w3-button" onclick="toggleFunction()">Εκδηλώσεις</a>
-     <!-- <a href="#shopsMobile" class="w3-bar-item w3-button" onclick="toggleFunction()">Καταστήματα</a> -->
-     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">Επικοινωνία</a>
-     <!-- <a href="#" class="w3-bar-item w3-button">SEARCH</a> -->
-     <!-- <a href="#" class="w3-bar-item w3-button"><img src="/img/greece.png" style="max-width: 18px;"></a>
-     <a href="#" class="w3-bar-item w3-button"><img src="/img/english.png" style="max-width:18px;"></a> -->
-   </div>
- </div>
+
       
       <!-- end navbar -->
       <section class="slider_section">
@@ -288,28 +259,6 @@
          $(this).removeClass('transition');
          });
          });
-         
-
-         // Change style of navbar on scroll
-            window.onscroll = function() {myFunction()};
-            function myFunction() {
-               var navbar = document.getElementById("myNavbar");
-               if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-                  navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-               } else {
-                  navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-               }
-            }
-
-         // Used to toggle the menu on small screens when clicking on the menu button
-         function toggleFunction() {
-            var x = document.getElementById("navDemo");
-            if (x.className.indexOf("w3-show") == -1) {
-               x.className += " w3-show";
-            } else {
-               x.className = x.className.replace(" w3-show", "");
-            }
-         }
       </script> 
    </body>
 </html>
