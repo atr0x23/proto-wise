@@ -1769,6 +1769,10 @@ input[type="radio"] .styled:checked+label::after {
 	line-height: 30px;
 }
 
+.mytext{
+	text-align: justify;
+}
+
 .about .img-box {
 	text-align: center;
 }
@@ -1800,12 +1804,14 @@ input[type="radio"] .styled:checked+label::after {
 /** end about section **/
 
 
-/** service section **/
+/** Products section **/
+	
 
 .service {
 	padding-top: 90px;
 	padding-bottom: 60px;
-	background: #f4f4f4;
+	background-color: #ffffff; /* For browsers that do not support gradients */
+	background-image: linear-gradient(#f4f4f4, #ffffff);
 }
 
 .service .titlepage span {
@@ -2026,11 +2032,6 @@ img.zoom {
 
 /** end download section **/
 
-/* Gradient background */
-#grad1 {
-	height: auto;
-	background-color: #00b0d9; /* For browsers that do not support gradients */
-	background-image: linear-gradient(#fff, #00b0d9);}
 
 .testimonial {
 	background: #0fc690;
@@ -2413,6 +2414,12 @@ ul.contant_icon li img {
 
 
 /** thanos footer **/
+
+/* Gradient background */
+#grad1 {
+	height: auto;
+	background-color: #00b0d9; /* For browsers that do not support gradients */
+	background-image: linear-gradient(#fff, #00b0d9);}
 
 .w3-center{text-align:center!important}
 .w3-padding-64{padding-top:64px!important;padding-bottom:64px!important}
