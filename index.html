@@ -53,8 +53,19 @@
       <!-- end loader --> 
 
 
-      <!-- Navbar (sit on top) -->
+      <!-- Navbar -->
 
+      <div id="myNav" class="overlay">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+         <div class="overlay-content">
+           <a href="#">About</a>
+           <a href="#">Services</a>
+           <a href="#">Clients</a>
+           <a href="#">Contact</a>
+         </div>
+       </div>
+       
+       <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
       
       <!-- end navbar -->
       <section class="slider_section">
@@ -215,9 +226,6 @@
       <footer class="w3-center w3-padding-64" id="grad1">
          <!-- <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Αρχική</a> -->
          <div class="w3-section">
-           <!-- <img src="img/award-sca.png" width="70px" height="70px">
-           <img src="img/award-barista.png" width="70px" height="70px">
-           <img src="img/award-silver.png" width="70px" height="70px"> -->
            <p><b>E-mail:</b> <em>info@proto.com.gr, sales@proto.com.gr</em></p>
            <p><b>Phone:</b> <em> +30 (2610) 641 145, 641 144, 641 773</em></p>
            <p><b>Fax:</b> <em>+30 (2610) 642 336</em></p>
@@ -258,6 +266,15 @@
          $(this).removeClass('transition');
          });
          });
+
+         /*nav-bar*/
+         function openNav() {
+         document.getElementById("myNav").style.width = "100%";
+         }
+
+         function closeNav() {
+         document.getElementById("myNav").style.width = "0%";
+         }
       </script> 
    </body>
 </html>
