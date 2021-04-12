@@ -59,14 +59,14 @@
       <div id="myNav" class="overlay">
          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
          <div class="overlay-content">
-           <a href="http://psofos.gr/proto/#about">Η Εταιρεία</a>
-           <a href="#service">Τα Προϊόντα μας</a>
-           <a href="#">Εκδηλώσεις</a>
-           <a href="#">Επικοινωνία</a>
+           <a href="#about" onclick="closeNav()">Η Εταιρεία</a>
+           <a href="#service" onclick="closeNav()">Τα Προϊόντα μας</a>
+           <a href="#" onclick="closeNav()">Εκδηλώσεις</a>
+           <a href="#" onclick="closeNav()">Επικοινωνία</a>
          </div>
        </div>
+       <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; Menu </span>
        
-       <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu </span>
       
       <!-- end navbar -->
       <section class="slider_section">
@@ -194,6 +194,32 @@
                </div>
             </div>
             <!-- END of Timeline -->
+
+            <div class="titlepage" style="margin-top: 100px;">
+               <h3><b>Υλικό από αρχείο</b></h3>
+            </div>
+
+            <div class="row">
+               <div class="col-md-6">
+                  <p>#1. Τελετή Αγυιασμού, @Εγλυκάδα-1961</p><br>
+                  <img src="img/agiasmos2.jpg" class="w3-round w3-image" alt="photo" width="500" height="333">
+               </div>
+               <div class="col-md-6 mytext titlepage">
+                  <p>#2. Τελετή Αγυιασμού, @Εγλυκάδα-1961</p><br>
+                  <img src="img/agiasmos1.jpg" class="w3-round w3-image" alt="photo" width="500" height="333">
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6">
+                  <p>#3. Πρώτο Οικοδόμημα, @Εγλυκάδα-1962</p><br>
+                  <img src="img/factory2.jpg" class="w3-round w3-image" alt="photo" width="500" height="333">
+               </div>
+               <div class="col-md-6 mytext titlepage">
+                  <p>#4. Πρώτο Οικοδόμημα, @Εγλυκάδα-1962</p><br>
+                  <img src="img/plaka.jpg" class="w3-round w3-image" alt="photo" width="500" height="333">
+               </div>
+            </div>
+
          </div>
       </div>
       <!-- end abouts -->
@@ -206,7 +232,8 @@
                <div class="col-md-12">
                   <div class="titlepage">
                      <h2>Προϊόντα </h2>
-                     <span>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of <br>using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</span>
+                     <span>Ύστερα από αρκετά χρόνια λειτουργίας του συνεταιρισμού, εμπειρία ετών και αρκετές προσπάθειες είμαστε στην ευχάριστη θέση <br> 
+                        να σας παρουσιάζουμε σήμερα τα προϊόντα μας σε νέα, ανανεωμένη και πλήρως βολική συσκευασία.</span>
                   </div>
                </div>
             </div>
@@ -216,11 +243,11 @@
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
                   <div class="service-box">
                      <figure>
-                        <a href="images/1.jpg" class="fancybox" rel="ligthbox">
+                        <a href="img/plaka.jpg" class="fancybox" rel="ligthbox">
                         <img  src="images/1.jpg" class="zoom img-fluid "  alt="">
                         </a>
                         <span class="hoverle">
-                        <a href="images/1.jpg" class="fancybox" rel="ligthbox">Food</a>
+                        <a href="img/plaka.jpg" class="fancybox" rel="ligthbox">Food</a>
                         </span>  
                      </figure>
                   </div>

@@ -133,7 +133,7 @@ ol {
 
 p {
 	margin: 0px;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 15px;
 	line-height: 24px;
 }
@@ -2427,6 +2427,8 @@ ul.contant_icon li img {
 .w3-xxlarge{font-size:36px!important}
 .w3-text-cbcyan2{color:#007437!important;text-decoration: none;}
 .w3-text-cbcyan2:hover{color:white!important; text-decoration: none;}
+.w3-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
+.w3-round{border-radius:4px}
 
 /**  nav bar **/
 
