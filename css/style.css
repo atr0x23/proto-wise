@@ -2533,20 +2533,15 @@ ul.contant_icon li img {
 
   #trompoukis{
 		overflow: hidden;
-		background-color: #007437;
 		font-size:24px;
 		cursor:pointer;
 		color: #ffffff; 
-		/* background: rgba(0, 0, 0, 0.6); */
+		background: rgba(0, 116, 55, 0.8);
 		display: block;
+		position:fixed;
+		z-index: 1;
+		width: 100%;
 	  }
-  
-
-  .sticky {
-	position: fixed;
-	top: 0;
-	width: 100%;
-  }
   
   @media screen and (max-height: 450px) {
 	.overlay a {font-size: 20px}
