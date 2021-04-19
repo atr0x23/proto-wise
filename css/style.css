@@ -1723,7 +1723,7 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 @media (max-width:500px) {.hide-small{display:none!important}}
-@media (min-width:500px) {.hide-big{z-index: -1!important}}
+@media (min-width: 500px) {.hide-big{display:none!important;}}
 
 
 /** about section **/
