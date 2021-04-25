@@ -62,7 +62,7 @@
       <section class="slider_section">
          <div id="myCarousel" class="carousel slide banner-main" data-ride="carousel">
             <div class="carousel-inner">
-               <div class="carousel-item active">
+               <div class="carousel-item">
                   <img class="first-slide" src="images/homepageA.jpg" alt="First slide">
                   <div class="container">
                      <div class="carousel-caption relative">
@@ -92,6 +92,36 @@
                      </div>
                   </div>
                </div>
+               <div class="carousel-item">
+                  <img class="third-slide" src="images/homepageB.jpg" alt="Third slide">
+                  <div class="container">
+                     <div class="carousel-caption relative">
+                        <h1>Παίξε & Μάθε</h1>
+                        <p>Παίξε στο quiz μας και διεύρυνε το πεδίο των εγκυκλοπαιδικών σου γνώσεων διασκεδάζοντας!</p>
+                        <a  href="#">Παιξε το Quiz</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item active">
+                  <img class="third-slide" src="images/homepageC.jpg" alt="Third slide">
+                  <div class="container">
+                     <div class="carousel-caption relative">
+                        <h1>Παίξε & Μάθε</h1>
+                        <p>Παίξε στο quiz μας και διεύρυνε το πεδίο των εγκυκλοπαιδικών σου γνώσεων διασκεδάζοντας!</p>
+                        <a  href="#">Παιξε το Quiz</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <img class="third-slide" src="images/homepageD.jpg" alt="Third slide">
+                  <div class="container">
+                     <div class="carousel-caption relative">
+                        <h1>Παίξε & Μάθε</h1>
+                        <p>Παίξε στο quiz μας και διεύρυνε το πεδίο των εγκυκλοπαιδικών σου γνώσεων διασκεδάζοντας!</p>
+                        <a  href="#">Παιξε το Quiz</a>
+                     </div>
+                  </div>
+               </div>             
             </div>
             <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
             <i class='fa fa-angle-left'></i>
@@ -249,7 +279,7 @@
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
                   <div class="service-box">
                      <figure>
-                        <a href="img/dap-small.jpg" class="fancybox" rel="ligthbox">
+                        <a href="img/dapCenter.jpg" class="fancybox" rel="ligthbox">
                         <img  src="img/blue-smallbg.jpg" class="zoom img-fluid "  alt="">
                         </a>
                         <!-- <span class="hoverle">
@@ -273,7 +303,7 @@
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
                   <div class="service-box">
                      <figure>
-                        <a href="img/das.jpg" class="fancybox" rel="ligthbox">
+                        <a href="img/dasCenter.jpg" class="fancybox" rel="ligthbox">
                         <img  src="img/chocolinobg.jpg" class="zoom img-fluid "  alt="">
                         </a>
                         <!-- <span class="hoverle">
@@ -297,7 +327,7 @@
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <div class="service-box">
                      <figure>
-                        <a href="img/yogurtbg.jpg" class="fancybox" rel="ligthbox">
+                        <a href="img/yogurtbg2.jpg" class="fancybox" rel="ligthbox">
                         <img  src="img/yogurtbg.jpg" class="zoom img-fluid "  alt="">
                         </a>
                         <!-- <span class="hoverle">
@@ -309,8 +339,8 @@
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
                   <div class="service-box">
                      <figure>
-                        <a href="img/dae-small.jpg" class="fancybox" rel="ligthbox">
-                        <img  src="img/green-smallbg.jpg" class="zoom img-fluid "  alt="">
+                        <a href="img/daeCenter.jpg" class="fancybox" rel="ligthbox">
+                        <img  src="img/green-smallbg2.jpg" class="zoom img-fluid "  alt="">
                         </a>
                         <!-- <span class="hoverle">
                         <a href="img/green-smallbg.jpg" class="fancybox" rel="ligthbox">Ελαφρύ-0.5L</a>
